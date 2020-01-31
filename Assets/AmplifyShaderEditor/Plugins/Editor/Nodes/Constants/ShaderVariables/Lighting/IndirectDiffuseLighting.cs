@@ -34,9 +34,16 @@ namespace AmplifyShaderEditor
 			base.SetPreviewInputs();
 
 			if( m_inputPorts[ 0 ].IsConnected )
-				m_previewMaterialPassId = 1;
+			{
+				if( m_normalSpace == ViewSpace.Tangent )
+					m_previewMaterialPassId = 1;
+				else
+					m_previewMaterialPassId = 2;
+			}
 			else
+			{
 				m_previewMaterialPassId = 0;
+			}
 
 			if( m_cachedIntensityId == -1 )
 				m_cachedIntensityId = Shader.PropertyToID( "_Intensity" );
@@ -150,7 +157,7 @@ namespace AmplifyShaderEditor
 					if( m_inputPorts[ 0 ].IsConnected )
 					{
 						if( m_normalSpace == ViewSpace.Tangent )
-							fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, m_currentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
+							fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, CurrentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
 						else
 							fragWorldNormal = m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector );
 					}
@@ -207,7 +214,7 @@ namespace AmplifyShaderEditor
 						if( m_inputPorts[ 0 ].IsConnected )
 						{
 							if( m_normalSpace == ViewSpace.Tangent )
-								fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, m_currentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
+								fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, CurrentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
 							else
 								fragWorldNormal = m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector );
 						}
@@ -255,7 +262,7 @@ namespace AmplifyShaderEditor
 						if( m_inputPorts[ 0 ].IsConnected )
 						{
 							if( m_normalSpace == ViewSpace.Tangent )
-								fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, m_currentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
+								fragWorldNormal = dataCollector.TemplateDataCollectorInstance.GetWorldNormal( UniqueId, CurrentPrecisionType, m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector ), OutputId );
 							else
 								fragWorldNormal = m_inputPorts[ 0 ].GeneratePortInstructions( ref dataCollector );
 						}
@@ -278,7 +285,7 @@ namespace AmplifyShaderEditor
 			string normal = string.Empty;
 			if( m_inputPorts[ 0 ].IsConnected )
 			{
-				dataCollector.AddToInput( UniqueId, SurfaceInputs.WORLD_NORMAL, m_currentPrecisionType );
+				dataCollector.AddToInput( UniqueId, SurfaceInputs.WORLD_NORMAL, CurrentPrecisionType );
 				dataCollector.AddToInput( UniqueId, SurfaceInputs.INTERNALDATA, addSemiColon: false );
 				dataCollector.ForceNormal = true;
 
@@ -290,7 +297,7 @@ namespace AmplifyShaderEditor
 			{
 				if( dataCollector.IsFragmentCategory )
 				{
-					dataCollector.AddToInput( UniqueId, SurfaceInputs.WORLD_NORMAL, m_currentPrecisionType );
+					dataCollector.AddToInput( UniqueId, SurfaceInputs.WORLD_NORMAL, CurrentPrecisionType );
 					if( dataCollector.DirtyNormal )
 					{
 						dataCollector.AddToInput( UniqueId, SurfaceInputs.INTERNALDATA, addSemiColon: false );
@@ -304,14 +311,14 @@ namespace AmplifyShaderEditor
 
 			if( dataCollector.PortCategory == MasterNodePortCategory.Vertex || dataCollector.PortCategory == MasterNodePortCategory.Tessellation )
 			{
-				dataCollector.AddLocalVariable( UniqueId, m_currentPrecisionType, WirePortDataType.FLOAT3, "indirectDiffuse" + OutputId, "ShadeSH9( float4( " + normal + ", 1 ) )" );
+				dataCollector.AddLocalVariable( UniqueId, CurrentPrecisionType, WirePortDataType.FLOAT3, "indirectDiffuse" + OutputId, "ShadeSH9( float4( " + normal + ", 1 ) )" );
 			}
 			else
 			{
 				dataCollector.AddLocalVariable( UniqueId, "UnityGI gi" + OutputId + " = gi;" );
 				dataCollector.AddLocalVariable( UniqueId, PrecisionType.Float, WirePortDataType.FLOAT3, "diffNorm" + OutputId, normal );
 				dataCollector.AddLocalVariable( UniqueId, "gi" + OutputId + " = UnityGI_Base( data, 1, diffNorm" + OutputId + " );" );
-				dataCollector.AddLocalVariable( UniqueId, m_currentPrecisionType, WirePortDataType.FLOAT3, "indirectDiffuse" + OutputId, "gi" + OutputId + ".indirect.diffuse + diffNorm" + OutputId + " * 0.0001" );
+				dataCollector.AddLocalVariable( UniqueId, CurrentPrecisionType, WirePortDataType.FLOAT3, "indirectDiffuse" + OutputId, "gi" + OutputId + ".indirect.diffuse + diffNorm" + OutputId + " * 0.0001" );
 			}
 
 			finalValue = "indirectDiffuse" + OutputId;
