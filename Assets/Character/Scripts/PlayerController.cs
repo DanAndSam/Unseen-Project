@@ -13,12 +13,14 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+
+    }
+
+    public void Attack()
+    {
+        if (animator != null)
         {
-            if (animator != null)
-            {
-                animator.SetTrigger("StepOne");
-            }
+            animator.SetTrigger("StepOne");
         }
     }
 }
