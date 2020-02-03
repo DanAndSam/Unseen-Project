@@ -8,7 +8,9 @@ public class AimingReticulis : MonoBehaviour
 {
     public GameObject reticulis;
     public GameObject reticulisTarget;
+    public float reticulisScaleFactor = 3;
 
+    private int numberOfRiticuleRotations = 3;
     private bool canLaunchRiticule = true;
     private Vector3 reticulisStartRot = new Vector3();
     private Vector3 reticulisStartScale = new Vector3();
@@ -21,10 +23,15 @@ public class AimingReticulis : MonoBehaviour
         reticulisStartColor = reticulis.GetComponent<Image>().color;
     }
 
-    public void Launch()
+    public void Launch(float reticuleTime)
     {
         if(canLaunchRiticule)
-            StartCoroutine(StartReticulis());
+            StartCoroutine(StartReticulis(reticuleTime));
+    }
+
+    public void SetReticuleSize(float size)
+    {
+        transform.localScale *= size;
     }
 
     public void ResetReticulis()
@@ -34,23 +41,23 @@ public class AimingReticulis : MonoBehaviour
         reticulis.SetActive(false);
         reticulisTarget.SetActive(false);
         reticulis.GetComponent<Image>().color = reticulisStartColor;
+        reticulisTarget.GetComponent<Image>().color = reticulisStartColor;
         canLaunchRiticule = true;
     }
 
-    private IEnumerator StartReticulis()
+    private IEnumerator StartReticulis(float reticuleTime)
     {
         canLaunchRiticule = false;
         reticulis.SetActive(true);
         reticulisTarget.SetActive(true);
 
-        reticulis.transform.DORotate(reticulisTarget.transform.eulerAngles,0.5f).SetEase(Ease.Linear).SetLoops(7, LoopType.Incremental);
-        reticulis.transform.DOScale(reticulisTarget.transform.localScale, 3.5f);
+        float rotationTime = reticuleTime / numberOfRiticuleRotations;
 
-        yield return new WaitForSeconds(3.5f);
+        reticulis.transform.DORotate(reticulisTarget.transform.eulerAngles, rotationTime).SetEase(Ease.Linear).SetLoops(numberOfRiticuleRotations, LoopType.Incremental);
+        reticulis.transform.DOScale(reticulisTarget.transform.localScale, reticuleTime);
 
-        reticulis.GetComponent<Image>().DOFade(0, 1.5f);
-        reticulisTarget.GetComponent<Image>().DOFade(0, 1.5f);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(reticuleTime);
+        
         ResetReticulis();
     }
 }
