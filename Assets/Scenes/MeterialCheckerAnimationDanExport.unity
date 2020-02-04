@@ -168,8 +168,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 33
@@ -199,11 +197,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 628343440}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -258,6 +251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -346,8 +344,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &63070806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,8 +362,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -469,11 +463,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476963792}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -528,6 +517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -699,11 +693,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1171695944}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -759,6 +748,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!1001 &200735180
@@ -768,11 +762,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 628343440}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -828,6 +817,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &200735181 stripped
@@ -843,11 +837,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420317326}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -903,6 +892,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &292970233 stripped
@@ -918,11 +912,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453645725}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -978,6 +967,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &297123437 stripped
@@ -993,11 +987,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579310452}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1052,6 +1041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -1260,11 +1254,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1171695944}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1319,6 +1308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -1760,11 +1754,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 628343440}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1819,6 +1808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -1983,11 +1977,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453645725}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2043,6 +2032,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &506834592 stripped
@@ -2058,16 +2052,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579310452}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2128,6 +2112,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &509247611 stripped
@@ -2143,11 +2137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476963792}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2203,6 +2192,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &539092712 stripped
@@ -2218,11 +2212,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420317326}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2277,6 +2266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -2341,8 +2335,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 49
@@ -2702,15 +2694,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
-      propertyPath: m_Name
-      value: SturdyBot_FlipBook_Test_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+    - target: {fileID: 100000, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -2731,18 +2715,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 400138, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.004508831
-      objectReference: {fileID: 0}
-    - target: {fileID: 400138, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.027464867
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
@@ -3170,6 +3142,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+      propertyPath: m_Name
+      value: SturdyBot_FlipBook_Test_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100220, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 100222, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 64
@@ -3181,6 +3165,14 @@ PrefabInstance:
     - target: {fileID: 400036, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.027464895
+      objectReference: {fileID: 0}
+    - target: {fileID: 400138, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004508831
+      objectReference: {fileID: 0}
+    - target: {fileID: 400138, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.027464867
       objectReference: {fileID: 0}
     - target: {fileID: 400158, guid: 993365bef4bafa74f8dae3add43555cb, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3267,11 +3259,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579310452}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3326,6 +3313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -3390,8 +3382,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 49
@@ -3528,11 +3518,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453645725}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3588,6 +3573,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &842535516 stripped
@@ -3603,11 +3593,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476963792}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3662,6 +3647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -3721,14 +3711,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.015686275}
+  m_Color: {r: 0, g: 0.49481273, b: 1, a: 0.28627452}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 6a25797a6576a004392ac60163557730, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3760,11 +3748,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 628343440}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3819,6 +3802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -3904,11 +3892,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1171695944}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3963,6 +3946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -4031,8 +4019,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1067986875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,8 +4037,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -4166,11 +4150,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476963792}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4225,6 +4204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -21687,6 +21671,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.07214893
       objectReference: {fileID: 0}
+    - target: {fileID: 3032718129891791046, guid: 57f49d818c426254aad2728cf8db7fe0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 3032718129891791070, guid: 57f49d818c426254aad2728cf8db7fe0,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -21802,6 +21791,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -80.66592
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 152.94006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -172.98906
+      objectReference: {fileID: 0}
     - target: {fileID: 3899662345681874512, guid: 57f49d818c426254aad2728cf8db7fe0,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21877,26 +21881,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 64
       objectReference: {fileID: 0}
-    - target: {fileID: 3032718129891791046, guid: 57f49d818c426254aad2728cf8db7fe0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -72.0234
-      objectReference: {fileID: 0}
-    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 39.751537
-      objectReference: {fileID: 0}
-    - target: {fileID: 3899662345681646206, guid: 57f49d818c426254aad2728cf8db7fe0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -56.6876
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57f49d818c426254aad2728cf8db7fe0, type: 3}
 --- !u!1 &1210269190
@@ -21969,11 +21953,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476963792}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22029,6 +22008,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &1258639311 stripped
@@ -22050,11 +22034,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420317326}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22110,6 +22089,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &1287815114 stripped
@@ -22125,11 +22109,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579310452}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22184,6 +22163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -22377,6 +22361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reticulis: {fileID: 903116699}
   reticulisTarget: {fileID: 1852155759}
+  reticulisScaleFactor: 3
 --- !u!1001 &1325118447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22384,11 +22369,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1171695944}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22443,6 +22423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -22981,11 +22966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453645725}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23041,6 +23021,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &1503778545 stripped
@@ -23056,11 +23041,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 628343440}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23116,6 +23096,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &1509252114 stripped
@@ -23131,11 +23116,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 453645725}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23190,6 +23170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -23754,15 +23739,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.85490197}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a693b8c5fe7592e4886305f56d926e10, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -23785,11 +23768,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420317326}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23844,6 +23822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -23938,8 +23921,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1892745087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23958,8 +23939,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -24163,11 +24142,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1171695944}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24223,6 +24197,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!1001 &2135030845
@@ -24232,11 +24211,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579310452}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24292,6 +24266,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
 --- !u!4 &2135030846 stripped
@@ -24307,11 +24286,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 420317326}
     m_Modifications:
-    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Point Light Z
-      objectReference: {fileID: 0}
     - target: {fileID: 565732199719978349, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24366,6 +24340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 565732199719978351, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Point Light Z
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0681baf03a5ff2a4e9b9e7617f9b5b1f, type: 3}
@@ -24551,8 +24530,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6322163729484315360}
-  m_LocalRotation: {x: 0.30316237, y: 0.15489411, z: -0.050012164, w: 0.9389351}
-  m_LocalPosition: {x: -8.451409, y: 5.4318914, z: -33.252167}
+  m_LocalRotation: {x: 0.00000008940697, y: 0.000000044703484, z: -0.000000011175871,
+    w: 1}
+  m_LocalPosition: {x: -7.6812115, y: 1.3618536, z: -31.751383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6322163729746370726}

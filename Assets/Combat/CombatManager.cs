@@ -24,16 +24,30 @@ public class CombatManager : MonoBehaviour
         }
     }
 
+   
     public AimingReticulis reticuleRef;
+    private PlayerController playerRef;
 
     public void InitCombat()
     {
         //Open Combat Interface
     }
 
+    public void SetPlayerReference(PlayerController player)
+    {
+        playerRef = player;
+    }
+
     public void LaunchReticule()
     {
-        reticuleRef.Launch();
+        reticuleRef.SetReticuleSize(CalculateRiticuleSize());
+        reticuleRef.Launch(playerRef.ReturnCurrentClipLength());
+    }
+
+    private float CalculateRiticuleSize()
+    {
+        float clipLength = playerRef.ReturnCurrentClipLength();
+        return reticuleRef.reticulisScaleFactor* clipLength;
     }
 }
 
