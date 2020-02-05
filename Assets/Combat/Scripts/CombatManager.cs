@@ -15,11 +15,10 @@ public class CombatManager : MonoBehaviour
 
                 if (_instance == null)
                 {
-                    GameObject container = new GameObject("Bicycle");
+                    GameObject container = new GameObject("CombatManager");
                     _instance = container.AddComponent<CombatManager>();
                 }
             }
-
             return _instance;
         }
     }
@@ -39,15 +38,8 @@ public class CombatManager : MonoBehaviour
     }
 
     public void LaunchReticule()
-    {
-        reticuleRef.SetReticuleSize(CalculateRiticuleSize());
+    {                
         reticuleRef.Launch(playerRef.ReturnCurrentClipLength());
-    }
-
-    private float CalculateRiticuleSize()
-    {
-        float clipLength = playerRef.ReturnCurrentClipLength();
-        return reticuleRef.reticulisScaleFactor* clipLength;
-    }
+    }    
 }
 

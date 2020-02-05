@@ -17,30 +17,37 @@ public class PlayerController : MonoBehaviour
         if (animator != null)
         {
             StartCoroutine(TestReticule());
-
-            /*CombatManager.Instance.LaunchReticule();
-            animator.SetTrigger("Step1");           */
         }
     }
 
     public IEnumerator TestReticule()
     {
-        CombatManager.Instance.LaunchReticule();
+        //Just for testing purposes
         animator.SetTrigger("Step1");
-
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 0.01f);
-
+        yield return new WaitForEndOfFrame();
         CombatManager.Instance.LaunchReticule();
+
+        yield return new WaitForSeconds(ReturnCurrentClipLength());
+
         animator.SetTrigger("Step2");
-
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 0.01f);
-
+        yield return new WaitForEndOfFrame();
         CombatManager.Instance.LaunchReticule();
-        animator.SetTrigger("Step3");
+        
 
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 0.01f);
+        yield return new WaitForSeconds(ReturnCurrentClipLength());
+
+        animator.SetTrigger("Step3");
+        yield return new WaitForEndOfFrame();
+        CombatManager.Instance.LaunchReticule();
+        
+
+        yield return new WaitForSeconds(ReturnCurrentClipLength());
 
         animator.SetTrigger("Step4");
+        yield return new WaitForEndOfFrame();
+        CombatManager.Instance.LaunchReticule();
+        
+        yield return new WaitForSeconds(ReturnCurrentClipLength());
     }
 
     public float ReturnCurrentClipLength()
