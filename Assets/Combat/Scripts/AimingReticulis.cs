@@ -41,12 +41,12 @@ public class AimingReticulis : MonoBehaviour
 
         float rotationTime = reticuleTime / numberOfRiticuleRotations;
 
-        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.35f);
-        reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.35f);
+        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.45f).SetEase(Ease.Linear);
+        reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.45f);
 
         yield return new WaitForSeconds(0.35f);
         reticulisWhiteCenter.SetActive(true);
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.15f);
         reticulisWhiteCenter.SetActive(false);        
 
         Destroy(reticule);        
