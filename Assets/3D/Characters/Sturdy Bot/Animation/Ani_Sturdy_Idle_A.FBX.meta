@@ -104,6 +104,10 @@ ModelImporter:
     100196: Spine_01_Bone
     100198: SpineBase_ctrl
     100200: TorsoBase_ctrl
+    100202: FusionBlade
+    100204: FusionBlade_bone
+    100206: FusionBlade_bone_Nob
+    100208: SturdyBot_Skin_New
     400000: //RootNode
     400002: Bit_Master_ctrl
     400004: BitBot_Skin_New001
@@ -205,6 +209,10 @@ ModelImporter:
     400196: Spine_01_Bone
     400198: SpineBase_ctrl
     400200: TorsoBase_ctrl
+    400202: FusionBlade
+    400204: FusionBlade_bone
+    400206: FusionBlade_bone_Nob
+    400208: SturdyBot_Skin_New
     2100000: BonesMat
     2100002: Sturdy
     2300000: L_Forearm_Bone
@@ -247,9 +255,11 @@ ModelImporter:
     4300022: R_Shoulder_Bone
     4300024: R_Forearm_Bone
     4300026: BitBot_Skin_New001
+    4300028: SturdyBot_Skin_New
     7400000: Take 001
     9500000: //RootNode
     13700000: BitBot_Skin_New001
+    13700002: SturdyBot_Skin_New
   externalObjects: {}
   materials:
     importMaterials: 1
