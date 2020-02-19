@@ -18,22 +18,24 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(CombatManager.Instance.ReturnIsReticulisTime());
-        //Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        
     }
 
     public void Attack()
     {
         if (animator != null)
         {
-            if (canAddition)
+            //if (canAddition)
             {                
                 if (animationIndex > 1)
                 {
                     if (CombatManager.Instance.ReturnIsReticulisTime())
                     {
                         StartCoroutine(TestReticule(animationIndex));
-                        animationIndex++;                        
+                        animationIndex++;
+                        CombatManager.Instance.SuccessfulAddition();
+                        if (animationIndex > 5)
+                            animationIndex = 1;
                     }
                     else
                     {
@@ -47,14 +49,21 @@ public class PlayerController : MonoBehaviour
                     StartCoroutine(TestReticule(animationIndex));
                     animationIndex++;
                 }
-            }
+            }            
         }
+    }
+
+    public void ResetAnimationIndex()
+    {
+        animationIndex = 1;
     }
 
     public IEnumerator TestReticule(int animIndex)
     {
         animator.SetTrigger("Step" + animIndex.ToString());
         yield return new WaitForEndOfFrame();
+        Debug.Log("Launching");
+        
         CombatManager.Instance.LaunchReticule();
         yield return new WaitForSeconds(ReturnCurrentClipLength());
     }

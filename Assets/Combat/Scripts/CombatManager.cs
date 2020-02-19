@@ -25,11 +25,17 @@ public class CombatManager : MonoBehaviour
 
    
     public AimingReticulis reticuleRef;
+    public UserInterfaceManager uiRef;
     private PlayerController playerRef;
 
     public void InitCombat()
     {
         //Open Combat Interface
+    }
+
+    public void SuccessfulAddition()
+    {
+        uiRef.SuccessfulAddition();
     }
 
     public void SetPlayerReference(PlayerController player)

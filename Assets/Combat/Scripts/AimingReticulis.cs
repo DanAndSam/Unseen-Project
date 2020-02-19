@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class AimingReticulis : MonoBehaviour
 {
+    public int reticulisModifierStat = 0;
+
     public GameObject reticulisPrefab;
     public GameObject reticulis;
     public GameObject reticulisTarget;
@@ -44,11 +46,14 @@ public class AimingReticulis : MonoBehaviour
         reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.35f);
         reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.35f);
 
-        yield return new WaitForSeconds(0.35f);
+        /*float reticuleTimer = 0.35f;
+        float reticuleWindowWithStat = 0.15f + reticulisModifierStat;*/
+
+        yield return new WaitForSeconds(0.2f);
         isReticulisTime = true;
         CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(true);
-        yield return new WaitForSeconds(2.15f);
+        yield return new WaitForSeconds(0.15f);
         isReticulisTime = false;
         CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(false);
