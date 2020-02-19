@@ -40,6 +40,16 @@ public class CombatManager : MonoBehaviour
     public void LaunchReticule()
     {                
         reticuleRef.Launch(playerRef.ReturnCurrentClipLength());
-    }    
+    }
+
+    public bool ReturnIsReticulisTime()
+    {
+        return reticuleRef.isReticulisTime;
+    }
+
+    public void SetPlayerCanAddition(bool canAddition)
+    {
+        playerRef.canAddition = canAddition;
+    }
 }
 

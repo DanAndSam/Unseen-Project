@@ -10,6 +10,7 @@ public class AimingReticulis : MonoBehaviour
     public GameObject reticulis;
     public GameObject reticulisTarget;
     public GameObject reticulisWhiteCenter;
+    public bool isReticulisTime = false;
     public float reticulisScaleFactor = 3;
 
     private int numberOfRiticuleRotations = 1;
@@ -31,23 +32,26 @@ public class AimingReticulis : MonoBehaviour
     }    
 
     private IEnumerator StartReticulis(float reticuleTime)
-    {                
-        yield return new WaitForSeconds(reticuleTime - 0.35f);        
+    {
+
+        yield return new WaitForSeconds(reticuleTime - 0.51f);
         GameObject reticule = Instantiate(reticulisPrefab);
         reticule.transform.SetParent(transform);
-        reticule.transform.localPosition = Vector3.zero;
+        reticule.transform.localPosition = Vector3.zero;        
 
-        reticulisTarget.SetActive(true);
+        reticulisTarget.SetActive(true);    
 
-        float rotationTime = reticuleTime / numberOfRiticuleRotations;
-
-        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.45f).SetEase(Ease.Linear);
-        reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.45f);
+        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.35f);
+        reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.35f);
 
         yield return new WaitForSeconds(0.35f);
+        isReticulisTime = true;
+        CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(true);
-        yield return new WaitForSeconds(0.15f);
-        reticulisWhiteCenter.SetActive(false);        
+        yield return new WaitForSeconds(2.15f);
+        isReticulisTime = false;
+        CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
+        reticulisWhiteCenter.SetActive(false);
 
         Destroy(reticule);        
     }
