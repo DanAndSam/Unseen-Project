@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     private float comboBuff = 0;
     private Animator animator;
-    private bool canAddition = false;
 
     public int animationIndex = 1;
+    public bool canAddition = true;
 
     private void Awake()
     {
@@ -27,14 +27,13 @@ public class PlayerController : MonoBehaviour
         if (animator != null)
         {
             if (canAddition)
-            {
-                canAddition = false;
+            {                
                 if (animationIndex > 1)
-                {                    
+                {
                     if (CombatManager.Instance.ReturnIsReticulisTime())
                     {
-                        animationIndex++;
                         StartCoroutine(TestReticule(animationIndex));
+                        animationIndex++;                        
                     }
                     else
                     {
@@ -54,30 +53,10 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator TestReticule(int animIndex)
     {
-        //Just for testing purposes
-        animator.SetTrigger("Step"+ animIndex.ToString());
-        yield return new WaitForEndOfFrame();
-        CombatManager.Instance.LaunchReticule();        
-        yield return new WaitForSeconds(ReturnCurrentClipLength());        
-        /*animator.SetTrigger("Step2");
+        animator.SetTrigger("Step" + animIndex.ToString());
         yield return new WaitForEndOfFrame();
         CombatManager.Instance.LaunchReticule();
-        
-
         yield return new WaitForSeconds(ReturnCurrentClipLength());
-
-        animator.SetTrigger("Step3");
-        yield return new WaitForEndOfFrame();
-        CombatManager.Instance.LaunchReticule();
-        
-
-        yield return new WaitForSeconds(ReturnCurrentClipLength() - 0.11f);
-
-        animator.SetTrigger("Step4");
-        yield return new WaitForEndOfFrame();
-        CombatManager.Instance.LaunchReticule();
-        
-        yield return new WaitForSeconds(ReturnCurrentClipLength());*/
     }
 
     public float ReturnCurrentClipLength()

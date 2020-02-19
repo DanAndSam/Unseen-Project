@@ -46,9 +46,11 @@ public class AimingReticulis : MonoBehaviour
 
         yield return new WaitForSeconds(0.35f);
         isReticulisTime = true;
+        CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(true);
         yield return new WaitForSeconds(2.15f);
         isReticulisTime = false;
+        CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(false);
 
         Destroy(reticule);        

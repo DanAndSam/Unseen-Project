@@ -46,5 +46,10 @@ public class CombatManager : MonoBehaviour
     {
         return reticuleRef.isReticulisTime;
     }
+
+    public void SetPlayerCanAddition(bool canAddition)
+    {
+        playerRef.canAddition = canAddition;
+    }
 }
 
