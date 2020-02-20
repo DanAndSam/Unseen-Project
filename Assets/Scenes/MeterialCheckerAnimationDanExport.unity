@@ -1559,6 +1559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889d045a0ff3595489c3adc8942202f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceLinePrefab: {fileID: 7955509447714006739, guid: be788d3f6d0d5e74092a93acca2b852a,
+    type: 3}
   attackButton: {fileID: 63070805}
   reticuleButton: {fileID: 1067986874}
   nextAttack: {fileID: 0}
@@ -25252,7 +25254,7 @@ GameObject:
   - component: {fileID: 1311648400}
   - component: {fileID: 1311648404}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: ReticulisManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25351,11 +25353,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5c66ae55fa7d0143af847394fe0fcc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reticuleTotalTime: 1
+  additionWindowTime: 0.3
   reticulisPrefab: {fileID: 577417289982119362, guid: c52d45f4eaaedda4b81088cd16503a9e,
     type: 3}
   reticulis: {fileID: 903116699}
   reticulisTarget: {fileID: 1852155759}
   reticulisWhiteCenter: {fileID: 2144332715}
+  isReticulisTime: 0
   reticulisScaleFactor: 3
 --- !u!1001 &1325118447
 PrefabInstance:
@@ -26263,6 +26268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reticuleRef: {fileID: 1311648404}
+  uiRef: {fileID: 455710160}
 --- !u!114 &1570811217 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6723816119653338779, guid: 57f49d818c426254aad2728cf8db7fe0,

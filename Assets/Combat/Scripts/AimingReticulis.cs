@@ -6,7 +6,10 @@ using UnityEngine;
 
 public class AimingReticulis : MonoBehaviour
 {
-    public int reticulisModifierStat = 0;
+    public float reticuleTotalTime = 0;
+    public float additionWindowTime = 0;
+
+    //public int reticulisModifierStat = 0;
 
     public GameObject reticulisPrefab;
     public GameObject reticulis;
@@ -36,24 +39,24 @@ public class AimingReticulis : MonoBehaviour
     private IEnumerator StartReticulis(float reticuleTime)
     {
 
-        yield return new WaitForSeconds(reticuleTime - 0.51f);
+        yield return new WaitForSeconds(reticuleTime - reticuleTotalTime);
+        float reticuleAnimationLength = reticuleTotalTime - additionWindowTime;
         GameObject reticule = Instantiate(reticulisPrefab);
         reticule.transform.SetParent(transform);
         reticule.transform.localPosition = Vector3.zero;        
 
         reticulisTarget.SetActive(true);    
 
-        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  0.35f);
-        reticule.transform.DOScale(reticulisTarget.transform.localScale, 0.35f);
+        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  reticuleAnimationLength);
+        reticule.transform.DOScale(reticulisTarget.transform.localScale, reticuleAnimationLength);
 
-        /*float reticuleTimer = 0.35f;
-        float reticuleWindowWithStat = 0.15f + reticulisModifierStat;*/
+        float windowDelay = reticuleAnimationLength - additionWindowTime;
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(windowDelay);
         isReticulisTime = true;
         CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(true);
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(additionWindowTime);
         isReticulisTime = false;
         CombatManager.Instance.SetPlayerCanAddition(isReticulisTime);
         reticulisWhiteCenter.SetActive(false);

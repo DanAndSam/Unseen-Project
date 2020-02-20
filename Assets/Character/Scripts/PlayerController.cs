@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private float comboBuff = 0;
     private Animator animator;
+    private int tempAnimIndex = 0;
 
     public int animationIndex = 1;
     public bool canAddition = true;
@@ -32,10 +33,13 @@ public class PlayerController : MonoBehaviour
                     if (CombatManager.Instance.ReturnIsReticulisTime())
                     {
                         StartCoroutine(TestReticule(animationIndex));
+                        tempAnimIndex = animationIndex;
                         animationIndex++;
                         CombatManager.Instance.SuccessfulAddition();
                         if (animationIndex > 5)
-                            animationIndex = 1;
+                        {
+                            animationIndex = 1;                            
+                        }
                     }
                     else
                     {
@@ -47,6 +51,7 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     StartCoroutine(TestReticule(animationIndex));
+                    tempAnimIndex = animationIndex;
                     animationIndex++;
                 }
             }            
@@ -63,8 +68,9 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("Step" + animIndex.ToString());
         yield return new WaitForEndOfFrame();
         Debug.Log("Launching");
-        
-        CombatManager.Instance.LaunchReticule();
+
+        if (tempAnimIndex < 5)
+            CombatManager.Instance.LaunchReticule();
         yield return new WaitForSeconds(ReturnCurrentClipLength());
     }
 
