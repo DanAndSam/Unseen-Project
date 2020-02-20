@@ -39,18 +39,17 @@ public class AimingReticulis : MonoBehaviour
     private IEnumerator StartReticulis(float reticuleTime)
     {
 
-        yield return new WaitForSeconds(reticuleTime - reticuleTotalTime);
-        float reticuleAnimationLength = reticuleTotalTime - additionWindowTime;
+        yield return new WaitForSeconds(reticuleTime - (reticuleTotalTime + additionWindowTime));
         GameObject reticule = Instantiate(reticulisPrefab);
         reticule.transform.SetParent(transform);
         reticule.transform.localPosition = Vector3.zero;        
 
         reticulisTarget.SetActive(true);    
 
-        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles,  reticuleAnimationLength);
-        reticule.transform.DOScale(reticulisTarget.transform.localScale, reticuleAnimationLength);
+        reticule.transform.DORotate(reticulisTarget.transform.eulerAngles, reticuleTotalTime);
+        reticule.transform.DOScale(reticulisTarget.transform.localScale, reticuleTotalTime);
 
-        float windowDelay = reticuleAnimationLength - additionWindowTime;
+        float windowDelay = reticuleTotalTime - additionWindowTime;
 
         yield return new WaitForSeconds(windowDelay);
         isReticulisTime = true;
