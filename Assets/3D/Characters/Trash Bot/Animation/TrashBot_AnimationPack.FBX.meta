@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: a5837363feda87c458408a7218a6a8b1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AmorphousKnife_Handle
+    100002: AmorphousKnife_Handle001
+    100004: Cylinder003
+    100006: Cylinder003 1
+    100008: Cylinder004
+    100010: Cylinder004 1
+    100012: Knife
+    100014: Knife001
+    100016: L_Ankle_Bone
+    100018: L_Clav_Bone
+    100020: L_Clav_Nob_Bone
+    100022: L_Forearm_Bone
+    100024: L_Forearm_FK_Bone
+    100026: L_Forearm_IK_Bone
+    100028: L_Hand_Bone
+    100030: L_Hand_Nob_Bone
+    100032: L_Index01_Bone
+    100034: L_Index02_Bone
+    100036: L_Index03_Bone
+    100038: L_Index03_Nob_Bone
+    100040: L_Knee_Bone
+    100042: L_Middle01_Bone
+    100044: L_Middle02_Bone
+    100046: L_Middle03_Bone
+    100048: L_Middle03_Nob_Bone
+    100050: L_Pinky01_Bone
+    100052: L_Pinky02_Bone
+    100054: L_Pinky03_Bone
+    100056: L_Pinky_Nob_Bone
+    100058: L_Ring01_Bone
+    100060: L_Ring02_Bone
+    100062: L_Ring03_Bone
+    100064: L_Ring03_Nob_Bone
+    100066: L_Shoulder_Bone
+    100068: L_Shoulder_FK_Bone
+    100070: L_Shoulder_IK_Bone
+    100072: L_Thumb01_Bone
+    100074: L_Thumb02_Bone
+    100076: L_Thumb03_Bone
+    100078: L_Thumb_Nob_Bone
+    100080: L_Tigh_Bone
+    100082: L_Toe_Bone
+    100084: L_Toe_Nob_Bone
+    100086: L_Wrist_bone
+    100088: L_Wrist_FK_bone
+    100090: L_Wrist_IK_bone
+    100092: Plane038
+    100094: Plane038 1
+    100096: R_Ankle_Bone
+    100098: R_Clav_Bone
+    100100: R_Clav_Nob_Bone
+    100102: R_Forearm_Bone
+    100104: R_Forearm_FK_Bone
+    100106: R_Forearm_IK_Bone
+    100108: R_Hand_Bone
+    100110: R_Hand_Nob_Bone
+    100112: R_Index01_Bone
+    100114: R_Index02_Bone
+    100116: R_Index03_Bone
+    100118: R_Index_Nob_Bone
+    100120: R_Knee_Bone
+    100122: R_Middle01_Bone
+    100124: R_Middle02_Bone
+    100126: R_Middle03_Bone
+    100128: R_Middle_Nob_Bone
+    100130: R_Pinky01_Bone
+    100132: R_Pinky02_Bone
+    100134: R_Pinky03_Bone
+    100136: R_Pinky_Nob_Bone
+    100138: R_Ring01_Bone
+    100140: R_Ring02_Bone
+    100142: R_Ring03_Bone
+    100144: R_Ring_Nob_Bone
+    100146: R_Shoulder_Bone
+    100148: R_Shoulder_FK_Bone
+    100150: R_Shoulder_IK_Bone
+    100152: R_Thumb01_Bone
+    100154: R_Thumb02_Bone
+    100156: R_Thumb03_Bone
+    100158: R_Thumb_Nob_Bone
+    100160: R_Tigh_Bone
+    100162: R_Toe_Bone
+    100164: R_Toe_Nob_Bone
+    100166: R_Wrist_bone
+    100168: R_Wrist_FK_bone
+    100170: R_Wrist_IK_bone
+    100172: TB_COM_ctrl001
+    100174: TB_Head_Bone
+    100176: TB_Head_Nob_Bone
+    100178: TB_L_HeadCuter_Bone
+    100180: TB_L_HeadCuter_Bone_Nob
+    100182: TB_Pelvis_Bone
+    100184: TB_Pelvis_Nob_Bone
+    100186: TB_R_HeadCuter_Bone
+    100188: TB_R_HeadCuter_Bone_Nob
+    100190: TB_Spine2_Bone
+    100192: TB_Spine3_Bone
+    100194: //RootNode
+    100196: TrashBot_Skin_NewRef
+    100198: TrashBoy_Master_ctrl
+    400000: AmorphousKnife_Handle
+    400002: AmorphousKnife_Handle001
+    400004: Cylinder003
+    400006: Cylinder003 1
+    400008: Cylinder004
+    400010: Cylinder004 1
+    400012: Knife
+    400014: Knife001
+    400016: L_Ankle_Bone
+    400018: L_Clav_Bone
+    400020: L_Clav_Nob_Bone
+    400022: L_Forearm_Bone
+    400024: L_Forearm_FK_Bone
+    400026: L_Forearm_IK_Bone
+    400028: L_Hand_Bone
+    400030: L_Hand_Nob_Bone
+    400032: L_Index01_Bone
+    400034: L_Index02_Bone
+    400036: L_Index03_Bone
+    400038: L_Index03_Nob_Bone
+    400040: L_Knee_Bone
+    400042: L_Middle01_Bone
+    400044: L_Middle02_Bone
+    400046: L_Middle03_Bone
+    400048: L_Middle03_Nob_Bone
+    400050: L_Pinky01_Bone
+    400052: L_Pinky02_Bone
+    400054: L_Pinky03_Bone
+    400056: L_Pinky_Nob_Bone
+    400058: L_Ring01_Bone
+    400060: L_Ring02_Bone
+    400062: L_Ring03_Bone
+    400064: L_Ring03_Nob_Bone
+    400066: L_Shoulder_Bone
+    400068: L_Shoulder_FK_Bone
+    400070: L_Shoulder_IK_Bone
+    400072: L_Thumb01_Bone
+    400074: L_Thumb02_Bone
+    400076: L_Thumb03_Bone
+    400078: L_Thumb_Nob_Bone
+    400080: L_Tigh_Bone
+    400082: L_Toe_Bone
+    400084: L_Toe_Nob_Bone
+    400086: L_Wrist_bone
+    400088: L_Wrist_FK_bone
+    400090: L_Wrist_IK_bone
+    400092: Plane038
+    400094: Plane038 1
+    400096: R_Ankle_Bone
+    400098: R_Clav_Bone
+    400100: R_Clav_Nob_Bone
+    400102: R_Forearm_Bone
+    400104: R_Forearm_FK_Bone
+    400106: R_Forearm_IK_Bone
+    400108: R_Hand_Bone
+    400110: R_Hand_Nob_Bone
+    400112: R_Index01_Bone
+    400114: R_Index02_Bone
+    400116: R_Index03_Bone
+    400118: R_Index_Nob_Bone
+    400120: R_Knee_Bone
+    400122: R_Middle01_Bone
+    400124: R_Middle02_Bone
+    400126: R_Middle03_Bone
+    400128: R_Middle_Nob_Bone
+    400130: R_Pinky01_Bone
+    400132: R_Pinky02_Bone
+    400134: R_Pinky03_Bone
+    400136: R_Pinky_Nob_Bone
+    400138: R_Ring01_Bone
+    400140: R_Ring02_Bone
+    400142: R_Ring03_Bone
+    400144: R_Ring_Nob_Bone
+    400146: R_Shoulder_Bone
+    400148: R_Shoulder_FK_Bone
+    400150: R_Shoulder_IK_Bone
+    400152: R_Thumb01_Bone
+    400154: R_Thumb02_Bone
+    400156: R_Thumb03_Bone
+    400158: R_Thumb_Nob_Bone
+    400160: R_Tigh_Bone
+    400162: R_Toe_Bone
+    400164: R_Toe_Nob_Bone
+    400166: R_Wrist_bone
+    400168: R_Wrist_FK_bone
+    400170: R_Wrist_IK_bone
+    400172: TB_COM_ctrl001
+    400174: TB_Head_Bone
+    400176: TB_Head_Nob_Bone
+    400178: TB_L_HeadCuter_Bone
+    400180: TB_L_HeadCuter_Bone_Nob
+    400182: TB_Pelvis_Bone
+    400184: TB_Pelvis_Nob_Bone
+    400186: TB_R_HeadCuter_Bone
+    400188: TB_R_HeadCuter_Bone_Nob
+    400190: TB_Spine2_Bone
+    400192: TB_Spine3_Bone
+    400194: //RootNode
+    400196: TrashBot_Skin_NewRef
+    400198: TrashBoy_Master_ctrl
+    2100000: Bit
+    2100002: 'Material #56'
+    2100004: No Name
+    2100006: 'Material #39'
+    2100008: 'Material #55'
+    2100010: 'Material #38'
+    2100012: 'Material #26'
+    2100014: 'Material #223'
+    2100016: 'Material #51'
+    2300000: Cylinder003
+    2300002: Cylinder003 1
+    2300004: Cylinder004
+    2300006: Cylinder004 1
+    2300008: Knife
+    2300010: Knife001
+    2300012: Plane038
+    2300014: Plane038 1
+    3300000: Cylinder003
+    3300002: Cylinder003 1
+    3300004: Cylinder004
+    3300006: Cylinder004 1
+    3300008: Knife
+    3300010: Knife001
+    3300012: Plane038
+    3300014: Plane038 1
+    4300000: Knife
+    4300002: Cylinder003
+    4300004: Cylinder004
+    4300006: Plane038
+    4300008: TrashBot_Skin_NewRef
+    4300010: Cylinder004
+    4300012: Cylinder003
+    4300014: Knife001
+    4300016: Plane038
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: TrashBot_Skin_NewRef
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
